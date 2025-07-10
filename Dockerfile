@@ -39,7 +39,7 @@ RUN python -m pip install --user --no-cache-dir -r requirements.txt
 COPY . .
 
 # ensure that any dependent models are downloaded at build-time
-RUN python main.py download-files
+RUN python live_kit_audio.py download-files
 
 # expose healthcheck port
 EXPOSE 8081
