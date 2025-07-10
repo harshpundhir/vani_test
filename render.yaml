@@ -2,7 +2,7 @@ services:
 - type: pserv
   repo: https://github.com/livekit-examples/agent-deployment
   # Change this to the path containing your Dockerfile
-  rootDir: vani_only
+  rootDir: .
 
   name: agent-example
   runtime: docker
