@@ -5,7 +5,7 @@ services:
   rootDir: vani_only
 
   name: agent-example
-  runtime: image
+  runtime: docker
 
   # Free plan is not available for private services
   plan: starter
