@@ -1,6 +1,6 @@
 services:
 - type: pserv
-  repo: https://github.com/livekit-examples/agent-deployment
+  repo: https://github.com/harshpundhir/vani_test
   # Change this to the path containing your Dockerfile
   rootDir: .
 
