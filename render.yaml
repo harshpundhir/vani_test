@@ -13,7 +13,7 @@ services:
   # Environment variables are stored in a group
   # created in the Render dashboard.
   envVars:
-  - fromGroup: agent-example-env 
+  - fromGroup: agent-example-env-group
   region: virginia
 
   # 300s is the standard allowed maximum. Talk to render.com support if you need this increased.
